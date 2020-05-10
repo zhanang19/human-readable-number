@@ -1,0 +1,31 @@
+{
+    "name": "zhanang19/human-readable-number",
+    "description": "This package will provide a simple helper to format a number into a human friendly number",
+    "homepage": "https://github.com/zhanang19/human-readable-number",
+    "require": {
+        "illuminate/support": "^5.5 || ^6.0 || ^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zainal Hasan",
+            "email": "mail@zhanang.id",
+            "homepage": "https://zhanang.id",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zhanang19\\HumanReadableNumber\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhanang19\\HumanReadableNumber\\HumanReadableNumberServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
