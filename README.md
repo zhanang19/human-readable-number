@@ -23,5 +23,9 @@ Only one parameter needed, the number. Parameter accepted type is string, float,
     @readableNumber(12312) // 12K+
     ```
 
+## Todo
+- [ ] Implement more than 0 digits after decimal point
+- [ ] Add unit test
+
 # Support
 - [Buy me a coffee](https://www.buymeacoffee.com/zhanang19)
